@@ -31,10 +31,11 @@ body {
 
 header {
     background: var(--nav-bg);
-    padding: 1.25rem 2rem;
+    padding: 0.25rem 0.5rem;
     display: flex;
     align-items: center;
     gap: 1rem;
+    border-radius: var(--radius);
 }
 
 header h1 {
