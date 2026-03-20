@@ -79,6 +79,7 @@ nav a:hover,
 nav a.active {
     color: var(--brand);
     border-bottom-color: var(--brand);
+    text-decoration: none;
 }
 
 main {
