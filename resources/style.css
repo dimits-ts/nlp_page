@@ -170,3 +170,44 @@ footer {
     text-decoration: underline;
     color: var(--brand-dark);
 }
+
+
+
+/* Header */
+
+#top_header {
+    border-radius: 0rem;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}
+
+/* Taken from main aueb website */
+.clr {
+    background-color: var(--brand);
+}
+.lgopa {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+    font-size: 1rem;
+    color: white;
+    white-space: nowrap;
+}
+
+.lgopa a {
+    text-decoration: none;
+    color: white;
+}
+
+.separator {
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .lgopa {
+        font-size: 0.65rem;
+    }
+}
+
