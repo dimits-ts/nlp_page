@@ -151,3 +151,20 @@ footer {
     block-size: 100%;
     object-fit: cover;
 }
+
+.lang-toggle {
+    background-color: var(--bg);
+    color: var(--text);
+    padding: 6px 12px;
+    border-radius: var(--icon-radius);
+}
+
+.lang-toggle a {
+    color: var(--brand-dark);
+    text-decoration: none;
+}
+
+.lang-toggle a:hover {
+    text-decoration: underline;
+    color: var(--brand-dark);
+}
